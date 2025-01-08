@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Weather.css">
+    <title>Weather Application</title>
+    <script src="Weather.js" defer></script>
+</head>
+<body>
+   
+<h1>Weather Application</h1>
+<br>
+
+<div class="select">
+    <input id="cityinput" type="text" placeholder="Enter Your City Name" />
+    <select id="selectcity">
+        <option value="" disabled selected>Select City</option>
+        <option value="mithi">Mithi</option>
+        <option value="mirpur_khas">Mirpur Khas</option>
+        <option value="sikkur">Sukkur</option>
+        <option value="hyderabad">Hyderabad</option>
+        <option value="karachi">Karachi</option>
+        <option value="tando allahyar">Tando Allahyar </option>
+        <option value="digri">Digri</option>  
+       
+    </select>
+</div>
+<br>
+<button id="getWeather">Get Weather</button>
+
+<div id="weatherResult">
+    <!-- Weather data will be shown here -->
+</div>
+
+<div id="customAlert" class="alert-box hidden">
+    <span id="alertMessage"></span>
+    <button id="closeAlert">OK</button>
+  </div>
+  
+
+</body>
+</html>

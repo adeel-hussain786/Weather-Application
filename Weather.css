@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 20px; 
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.select {
+    margin-top: 40px; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.select input, .select select {
+    width: 300px;
+    height: 50px;
+    padding: 0 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.select input:focus, .select select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
+    transform: scale(1.02);
+}
+
+#getWeather {
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    background: linear-gradient(to right, #007BFF, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+#getWeather:hover {
+    background: linear-gradient(to right, #0056b3, #003f7f);
+    transform: translateY(-3px);
+}
+
+#getWeather:active {
+    transform: translateY(1px);
+}
+
+#weatherResult {
+    margin-top: 30px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    text-align: left;
+}
+
+#weatherResult h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #FFD700;
+}
+
+#weatherResult p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 460px) {
+    h1 {
+        font-size: 28px;
+    }
+    .select input, .select select {
+        width: 260px;
+        height: 45px;
+        font-size: 14px;
+    }
+    #getWeather {
+        width: 150px;
+        height: 45px;
+        font-size: 16px;
+    }
+    #weatherResult {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 24px;
+    }
+    .select input, .select select {
+        width: 240px;
+        height: 40px;
+        font-size: 14px;
+    }
+    #getWeather {
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+    }
+    #weatherResult {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 32px;
+    }
+    .select input, .select select {
+        width: 280px;
+        height: 48px;
+        font-size: 15px;
+    }
+    #getWeather {
+        width: 160px;
+        height: 48px;
+        font-size: 17px;
+    }
+    #weatherResult {
+        padding: 18px;
+    }
+}
+.hidden {
+    display: none;
+}
+
+.alert-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.alert-box button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.alert-box button:hover {
+    background-color: #0056b3;
+}
