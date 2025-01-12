@@ -32,7 +32,7 @@ Welcome to the *Weather Application! This web-based app allows users to easily c
 To get started, clone this repository to your local machine.
 
 bash
-git clone https://github.com/adeelhussain786/weather-application.git
+git clone https://github.com/adeel-hussain786/weather-application.git
 
 
 ### 2. Navigate to the Project Folder
@@ -124,7 +124,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 If you have any questions or suggestions, feel free to reach out:
 
-- GitHub: [your-username](https://github.com/adeelhussain786)
+- GitHub: [your-username](https://github.com/adeel-hussain786)
 - Email: [mr.adeelkunbhar@gmail.com]
 
 ---
