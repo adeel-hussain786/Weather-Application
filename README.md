@@ -1,8 +1,9 @@
+
 ---
 
 # 🌤 *Weather Application* 🌤
 
-Welcome to the *Weather Application! This web-based app allows users to easily check the current weather for any city by entering its name or selecting from a dropdown of predefined cities. The app pulls real-time weather data using the **WeatherStack API*.
+Welcome to the *Weather Application*! This web-based app allows users to easily check the current weather for any city by entering its name or selecting from a dropdown of predefined cities. The app pulls real-time weather data using the **WeatherStack API**.
 
 ---
 
@@ -13,6 +14,15 @@ Welcome to the *Weather Application! This web-based app allows users to easily c
 - *Current Weather Info*: View temperature, humidity, and weather descriptions for the chosen city.
 - *Custom Alerts*: Friendly error messages guide users when a city is not found or if no city is entered.
 - *Responsive Design*: Optimized for use on both desktop and mobile devices.
+
+---
+
+## Screenshots 📸
+
+Here are some screenshots of how the application looks in action:
+![image](https://github.com/user-attachments/assets/9f176b43-17e2-4ae0-8228-47002fab025e)
+
+![image](https://github.com/user-attachments/assets/b05b2be8-7c19-42b3-bcd3-3fc3ba9a0129) ![image](https://github.com/user-attachments/assets/325c39f4-e713-4419-a37d-22a362e944f0)
 
 ---
 
@@ -31,21 +41,21 @@ Welcome to the *Weather Application! This web-based app allows users to easily c
 
 To get started, clone this repository to your local machine.
 
-bash
+```bash
 git clone https://github.com/adeel-hussain786/weather-application.git
-
+```
 
 ### 2. Navigate to the Project Folder
 
 Change your directory to the project folder:
 
-bash
+```bash
 cd weather-application
-
+```
 
 ### 3. Open the Application
 
-Open the index.html file in any web browser to view and use the application. Alternatively, use a *Live Server* extension in your code editor to run the project.
+Open the `index.html` file in any web browser to view and use the application. Alternatively, use a *Live Server* extension in your code editor to run the project.
 
 ---
 
@@ -55,9 +65,10 @@ This application fetches weather data using the *WeatherStack API*. To use the a
 
 1. *Sign Up* at [WeatherStack](https://weatherstack.com/) to obtain your API key.
 2. *Update the JavaScript* file with your key:
-   javascript
+
+   ```javascript
    const apiKey = "your-api-key-here";
-   
+   ```
 
 ---
 
@@ -71,7 +82,7 @@ This application fetches weather data using the *WeatherStack API*. To use the a
 - Press the *Get Weather* button to fetch the weather data.
 
 ### Step 3: View the Weather Information
-- The application will display the current *temperature, **humidity, and **weather description* for the selected city.
+- The application will display the current *temperature, humidity, and weather description* for the selected city.
   
 ### Step 4: Custom Alerts
 - If no city is entered or if the city is not found, a friendly *custom alert* will inform you of the issue.
@@ -89,11 +100,11 @@ This application fetches weather data using the *WeatherStack API*. To use the a
 
 The project is organized as follows:
 
+```
 ├── Weather.html      # The main HTML structure of the app
-
 ├── Weather.css       # Styles for the weather application
-
 ├── Weather.js        # JavaScript logic for fetching weather data and interacting with the UI
+```
 
 ---
 
@@ -130,3 +141,4 @@ If you have any questions or suggestions, feel free to reach out:
 
 #### Thank you for checking out the Weather Application! Stay informed, and may the weather be ever in your favor. ☀
 
+---
