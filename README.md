@@ -89,9 +89,7 @@ This application fetches weather data using the *WeatherStack API*. To use the a
 
 The project is organized as follows:
 
-
 weather-application/
-│
 ├── Weather.html      # The main HTML structure of the app
 ├── Weather.css       # Styles for the weather application
 ├── Weather.js        # JavaScript logic for fetching weather data and interacting with the UI
