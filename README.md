@@ -20,6 +20,7 @@ Welcome to the *Weather Application*! This web-based app allows users to easily 
 ## Screenshots 📸
 
 Here are some screenshots of how the application looks in action:
+
 ![image](https://github.com/user-attachments/assets/9f176b43-17e2-4ae0-8228-47002fab025e)
 
 ![image](https://github.com/user-attachments/assets/b05b2be8-7c19-42b3-bcd3-3fc3ba9a0129) ![image](https://github.com/user-attachments/assets/325c39f4-e713-4419-a37d-22a362e944f0)
